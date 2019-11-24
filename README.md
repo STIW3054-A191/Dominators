@@ -21,7 +21,7 @@ You are required to develop a real-time system using the Java programming langua
 
   6.  Store the accumulative metrics for all the Java programs in MS Excel. The example of the reporting format is shown below:
 
-    ![Capture](https://user-images.githubusercontent.com/47937370/69487933-de45eb80-0e9d-11ea-8195-59405d5931bf.PNG)
+   ![Capture](https://user-images.githubusercontent.com/47937370/69487933-de45eb80-0e9d-11ea-8195-59405d5931bf.PNG)
 
   7.  Generate a bar graph for each metric from the excel file and store all the graphs in a pdf file.
 
