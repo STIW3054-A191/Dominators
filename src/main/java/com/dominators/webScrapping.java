@@ -1,4 +1,6 @@
-package RTproject;
+
+package com.dominators;
+
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -23,9 +25,9 @@ public class webScrapping {
                 //System.out.println(link);
                 object.setUrlLink(link);
             }
+//            thread T1 = new thread(object);
+//            T1.run();
 
-            thread T1 = new thread(object);
-            T1.run();
         }
         catch(Exception ex){
                 ex.printStackTrace();
