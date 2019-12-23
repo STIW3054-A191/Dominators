@@ -92,6 +92,7 @@
             <artifactId>bcel</artifactId>
             <version>6.0</version>
         </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.eclipse.jgit/org.eclipse.jgit -->
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
@@ -99,4 +100,5 @@
             <version>5.4.2.201908231537-r</version>
         </dependency>
     </dependencies>
+
 </project>
