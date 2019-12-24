@@ -1,3 +1,4 @@
+
 package com.dominators;
 
 import org.eclipse.jgit.api.Git;
@@ -17,12 +18,10 @@ public class cloneRepo implements Runnable{
     @Override
     public void run() {
         try {
-
             String directory = System.getProperty("user.dir");
             Git.cloneRepository()
                     .setURI(url + ".git")
                     .setDirectory(new File(directory+"/repo/" + matricNo))
-
                     .call();
         } catch (GitAPIException e) {
             e.printStackTrace();
