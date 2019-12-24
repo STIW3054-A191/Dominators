@@ -18,7 +18,7 @@ public class checkDirectory {
         File file = new File(directory+"/repo/"+matricNo+"/target");
         ArrayList<String> names = new ArrayList<String>(Arrays.asList(file.list()));
         for(int i = 0; i < names.size(); i++){
-            if(names.get(i).toString().contains(matricNo)){
+            if(names.get(i).toString().contains(".jar")){
                 jarname = names.get(i).toString();
             }
         }
