@@ -68,6 +68,6 @@
     <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-http-lightweight:2.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.maven.wagon:wagon-http-shared:2.5" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.6" level="project" />
   </component>
 </module>

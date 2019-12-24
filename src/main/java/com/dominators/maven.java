@@ -1,4 +1,3 @@
-
 package com.dominators;
 
 import org.apache.maven.cli.MavenCli;
