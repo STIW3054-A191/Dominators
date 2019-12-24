@@ -19,7 +19,7 @@ public class cloneRepo implements Runnable{
         try {
             Git.cloneRepository()
                     .setURI(url + ".git")
-                    .setDirectory(new File("./"+matricNo))
+                    .setDirectory(new File("./repo/" + matricNo))
                     .call();
         } catch (GitAPIException e) {
             e.printStackTrace();
