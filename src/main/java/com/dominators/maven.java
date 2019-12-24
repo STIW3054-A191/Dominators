@@ -15,11 +15,13 @@ public class maven {
     }
 
 public void compile() throws FileNotFoundException {
+  
     String directory = System.getProperty("user.dir");
     FileOutputStream buildLog = new FileOutputStream(directory+"/repo/"+matricNo+"/Build.log");
 
     MavenCli cli = new MavenCli();
     cli.doMain(new String[]{"clean","install"}, directory+"/repo/"+matricNo, System.out, new PrintStream(buildLog));
+
 
 
 }
