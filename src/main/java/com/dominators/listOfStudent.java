@@ -25,7 +25,7 @@ public class listOfStudent {
 
 
             //Assigning attributes to an object and adding the object into the ArrayList.
-            data.add(new Data(matric.text(),name.text()));
+            data.add(new Data(matric.text(),name.text(),matric.text()));
 
         }
     }

@@ -1,8 +1,8 @@
 package com.dominators;
 
 public class Data {
-    private int num;
-    private String matric, name, link;
+    private int num, wmc,dit,noc,cbo,rfc,lcom;
+    private String matric, name, link, jarName;
 
     public Data(){
 
@@ -13,7 +13,6 @@ public class Data {
 
         this.matric = column1;
         this.name = column2;
-        this.link = column3;
     }
 
     //Constructor for Data from Wiki Page (ListOfStudent).
@@ -61,5 +60,61 @@ public class Data {
     //set the link of github of the element.
     public void setLink(String column3) {
         this.link = column3;
+    }
+
+    public void setCbo(int cbo) {
+        this.cbo = cbo;
+    }
+
+    public void setDit(int dit) {
+        this.dit = dit;
+    }
+
+    public void setLcom(int lcom) {
+        this.lcom = lcom;
+    }
+
+    public void setNoc(int noc) {
+        this.noc = noc;
+    }
+
+    public void setRfc(int rfc) {
+        this.rfc = rfc;
+    }
+
+    public void setWmc(int wmc) {
+        this.wmc = wmc;
+    }
+
+    public int getCbo() {
+        return cbo;
+    }
+
+    public int getDit() {
+        return dit;
+    }
+
+    public int getLcom() {
+        return lcom;
+    }
+
+    public int getNoc() {
+        return noc;
+    }
+
+    public int getRfc() {
+        return rfc;
+    }
+
+    public int getWmc() {
+        return wmc;
+    }
+
+    public String getJarName() {
+        return jarName;
+    }
+
+    public void setJarName(String jarName) {
+        this.jarName = jarName;
     }
 }

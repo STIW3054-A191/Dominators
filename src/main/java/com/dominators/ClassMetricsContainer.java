@@ -32,4 +32,21 @@ public class ClassMetricsContainer {
                 handler.handleClass(e.getKey(), cm);
         }
     }
+
+    public void calcTotal(){
+        Set<Map.Entry<String, ClassMetrics>> entries = m.entrySet();
+        Iterator<Map.Entry<String, ClassMetrics>> i;
+        int wmc=0;int dit=0;int noc=0; int cbo=0;int rfc=0;int lcom=0;
+
+        for (i = entries.iterator(); i.hasNext(); ) {
+            Map.Entry<String, ClassMetrics> e = i.next();
+            ClassMetrics cm = e.getValue();
+            if (cm.isVisited() && (MetricsFilter.includeAll() || cm.isPublic())){
+                wmc+=cm.getWmc();dit+=cm.getDit();noc+=cm.getNoc();cbo+=cm.getCbo();rfc+=cm.getRfc();lcom+=cm.getLcom();
+            }
+        }
+//        System.out.println(wmc+" "+dit+" "+noc+" "+cbo+" "+rfc+" "+lcom);
+    }
+
+
 }
