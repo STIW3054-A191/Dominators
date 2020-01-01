@@ -64,6 +64,7 @@ public class MetricsFilter {
         for (int i = 0; i < files.length; i++)
             processClass(cm, files[i]);
         cm.printMetrics(outputHandler);
+        cm.calcTotal();
     }
 
     /** The filter's main body.
