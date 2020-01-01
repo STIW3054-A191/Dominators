@@ -19,7 +19,7 @@ public class cloneRepo implements Runnable{
         try {
             String directory = System.getProperty("user.dir");
             Git.cloneRepository()
-                    .setURI(url + ".git")
+                    .setURI(url)
                     .setDirectory(new File(directory+"/repo/" + matricNo))
                     .call();
         } catch (GitAPIException e) {
