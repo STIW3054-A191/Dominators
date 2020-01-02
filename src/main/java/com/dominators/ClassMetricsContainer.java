@@ -33,7 +33,7 @@ public class ClassMetricsContainer {
         }
     }
 
-    public void calcTotal(){
+    public int[] calcTotal(){
         Set<Map.Entry<String, ClassMetrics>> entries = m.entrySet();
         Iterator<Map.Entry<String, ClassMetrics>> i;
         int wmc=0;int dit=0;int noc=0; int cbo=0;int rfc=0;int lcom=0;
@@ -45,7 +45,15 @@ public class ClassMetricsContainer {
                 wmc+=cm.getWmc();dit+=cm.getDit();noc+=cm.getNoc();cbo+=cm.getCbo();rfc+=cm.getRfc();lcom+=cm.getLcom();
             }
         }
+        int[] ckjm=new int[6];
+        ckjm[0]=wmc;
+        ckjm[1]=dit;
+        ckjm[2]=noc;
+        ckjm[3]=cbo;
+        ckjm[4]=rfc;
+        ckjm[5]=lcom;
 //        System.out.println(wmc+" "+dit+" "+noc+" "+cbo+" "+rfc+" "+lcom);
+        return ckjm;
     }
 
 

@@ -58,13 +58,18 @@ public class MetricsFilter {
      * @param files Class files to be analyzed
      * @param outputHandler An implementation of the CkjmOutputHandler interface
      */
+    private static int[] ckjm;
     public static void runMetrics(String[] files, CkjmOutputHandler outputHandler) {
         ClassMetricsContainer cm = new ClassMetricsContainer();
 
         for (int i = 0; i < files.length; i++)
             processClass(cm, files[i]);
         cm.printMetrics(outputHandler);
-        cm.calcTotal();
+        ckjm=cm.calcTotal();
+    }
+
+    public static int[] getCkjm() {
+        return ckjm;
     }
 
     /** The filter's main body.
