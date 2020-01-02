@@ -46,6 +46,20 @@ You are required to develop a real-time system using the Java programming langua
 8. Calculate the execution time.
 
 ## Result/Output
+#### Project Folder
+![Project Folder](https://user-images.githubusercontent.com/38216203/71661662-eab94000-2d89-11ea-88a3-ef01792e12d3.jpeg)
+#### Repository Folder
+![Repo Folder](https://user-images.githubusercontent.com/38216203/71661664-ec830380-2d89-11ea-9d60-acd306534521.jpeg)
+#### Log Folder
+![Log](https://user-images.githubusercontent.com/38216203/71661669-edb43080-2d89-11ea-936c-06f07b2ef55d.jpeg)
+#### Output Folder
+![Output](https://user-images.githubusercontent.com/38216203/71661671-ef7df400-2d89-11ea-8e0f-5e71530c22ee.jpeg)
+#### CKJM Folder
+![CKJM](https://user-images.githubusercontent.com/38216203/71661672-f0af2100-2d89-11ea-9ca4-907fd614a10b.jpeg)
+#### Excel File
+![Excel](https://user-images.githubusercontent.com/38216203/71661673-f3aa1180-2d89-11ea-956c-e1395c6479c5.jpeg)
+#### Graph
+![Graph](https://user-images.githubusercontent.com/38216203/71661678-f4db3e80-2d89-11ea-96c7-66e0057f3d84.jpeg)
 
 ## UML Class Diagram
 
