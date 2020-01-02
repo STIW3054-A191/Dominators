@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class compareData {
 
     public void compareData(ArrayList<Data> mainIssue, ArrayList <Data> wiki){
-        for(int i = 0; i < mainIssue.size(); i++){
+        for(int i = 0; i < 28; i++){
 
             for(int j = 0; j < wiki.size(); j++){
                 if(mainIssue.get(i).getMatric().equals(wiki.get(j).getMatric())) {
