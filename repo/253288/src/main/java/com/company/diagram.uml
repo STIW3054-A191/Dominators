@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="3.8994047619047763" y="0.0">com.company.Info</node>
+    <node x="42.149404761904776" y="167.0">com.company.Student_List</node>
+    <node x="0.0" y="366.5">com.company.Excel</node>
+    <node x="218.14940476190478" y="167.0">com.company.compare</node>
+    <node x="94.14940476190478" y="576.0">com.company.App</node>
+    <node x="227.89940476190478" y="267.0">com.company.GitHub</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.App" target="com.company.Student_List">
+      <point x="0.0" y="-25.0" />
+      <point x="167.14940476190478" y="556.0" />
+      <point x="170.975" y="556.0" />
+      <point x="170.975" y="242.0" />
+      <point x="178.64940476190478" y="242.0" />
+      <point x="58.5" y="25.0" />
+    </edge>
+    <edge source="com.company.GitHub" target="com.company.compare">
+      <point x="-36.0" y="-124.5" />
+      <point x="263.89940476190475" y="242.0" />
+      <point x="253.14940476190478" y="242.0" />
+      <point x="-70.0" y="25.0" />
+    </edge>
+    <edge source="com.company.Excel" target="com.company.Student_List">
+      <point x="48.333333333333314" y="-25.0" />
+      <point x="120.83333333333331" y="242.0" />
+      <point x="100.64940476190478" y="242.0" />
+      <point x="-19.5" y="25.0" />
+    </edge>
+    <edge source="com.company.Student_List" target="com.company.Info">
+      <point x="-39.0" y="-25.0" />
+      <point x="81.14940476190478" y="142.0" />
+      <point x="95.39940476190478" y="142.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="com.company.App" target="com.company.GitHub">
+      <point x="20.85714285714286" y="-25.0" />
+      <point x="188.00654761904764" y="536.0" />
+      <point x="263.89940476190475" y="536.0" />
+      <point x="-36.0" y="124.5" />
+    </edge>
+    <edge source="com.company.Excel" target="com.company.Info">
+      <point x="-48.33333333333334" y="-25.0" />
+      <point x="24.166666666666657" y="242.0" />
+      <point x="26.308333333333337" y="242.0" />
+      <point x="26.308333333333337" y="142.0" />
+      <point x="34.399404761904776" y="142.0" />
+      <point x="-61.0" y="58.5" />
+    </edge>
+    <edge source="com.company.App" target="com.company.compare">
+      <point x="62.571428571428555" y="-25.0" />
+      <point x="229.72083333333333" y="556.0" />
+      <point x="382.39940476190475" y="556.0" />
+      <point x="382.39940476190475" y="242.0" />
+      <point x="393.14940476190475" y="242.0" />
+      <point x="70.0" y="25.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.Excel">
+      <point x="-62.571428571428584" y="-25.0" />
+      <point x="104.57797619047619" y="556.0" />
+      <point x="36.25" y="556.0" />
+      <point x="-36.25" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.0" y="385.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
