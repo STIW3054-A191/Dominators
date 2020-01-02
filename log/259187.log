@@ -1,0 +1,44 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building RTP_Asignment1 1.0
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting C:\Users\yeong\Desktop\Dominators-master\repo\259187\target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\259187\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.7.0:compile (default-compile) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to C:\Users\yeong\Desktop\Dominators-master\repo\259187\target\classes
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - /C:/Users/yeong/Desktop/Dominators-master/repo/259187/src/main/java/com/mavenproject/asignment1/Asignment1.java: C:\Users\yeong\Desktop\Dominators-master\repo\259187\src\main\java\com\mavenproject\asignment1\Asignment1.java uses unchecked or unsafe operations.
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - /C:/Users/yeong/Desktop/Dominators-master/repo/259187/src/main/java/com/mavenproject/asignment1/Asignment1.java: Recompile with -Xlint:unchecked for details.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\259187\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ RTP_Asignment1 ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\259187\target\RTP_Asignment1-1.0.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ RTP_Asignment1 ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\259187\target\RTP_Asignment1-1.0.jar to C:\Users\yeong\.m2\repository\com\mavenproject\RTP_Asignment1\1.0\RTP_Asignment1-1.0.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\259187\pom.xml to C:\Users\yeong\.m2\repository\com\mavenproject\RTP_Asignment1\1.0\RTP_Asignment1-1.0.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1:51.577s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:40:36 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 39M/115M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

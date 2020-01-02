@@ -1,0 +1,40 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building assg 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ assg ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ assg ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\255101\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ assg ---
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 10 source files to C:\Users\yeong\Desktop\Dominators-master\repo\255101\target\classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ assg ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\255101\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ assg ---
+[main] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ assg ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ assg ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\255101\target\assg-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ assg ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\255101\target\assg-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\com\mycompany\assg\1.0-SNAPSHOT\assg-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\255101\pom.xml to C:\Users\yeong\.m2\repository\com\mycompany\assg\1.0-SNAPSHOT\assg-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.595s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:52:00 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 37M/127M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

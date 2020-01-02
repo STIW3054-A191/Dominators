@@ -1,0 +1,41 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Assignment 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ Assignment ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Assignment ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\254251\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ Assignment ---
+[main] INFO org.apache.maven.plugin.CompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ Assignment ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\254251\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ Assignment ---
+[main] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ Assignment ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ Assignment ---
+[main] WARN org.apache.maven.plugin.jar.JarMojo - JAR will be empty - no content was marked for inclusion!
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\254251\target\Assignment-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ Assignment ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\254251\target\Assignment-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\main\java\Assignment\1.0-SNAPSHOT\Assignment-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\254251\pom.xml to C:\Users\yeong\.m2\repository\main\java\Assignment\1.0-SNAPSHOT\Assignment-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 1.049s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:57:52 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 36M/120M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

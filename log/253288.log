@@ -1,0 +1,53 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building aidqayyum 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:3.1.0:clean (default-clean) @ aidqayyum ---
+[main] INFO org.apache.maven.plugins.clean.CleanMojo - Deleting C:\Users\yeong\Desktop\Dominators-master\repo\253288\target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:resources (default-resources) @ aidqayyum ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\253288\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:compile (default-compile) @ aidqayyum ---
+[main] INFO org.apache.maven.plugin.compiler.CompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 6 source files to C:\Users\yeong\Desktop\Dominators-master\repo\253288\target\classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ aidqayyum ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\253288\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ aidqayyum ---
+[main] INFO org.apache.maven.plugin.compiler.TestCompilerMojo - Changes detected - recompiling the module!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 1 source file to C:\Users\yeong\Desktop\Dominators-master\repo\253288\target\test-classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.22.1:test (default-test) @ aidqayyum ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin -  T E S T S
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - -------------------------------------------------------
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Running com.company.AppTest
+[ThreadedStreamConsumer] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 s - in com.company.AppTest
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Results:
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.0.2:jar (default-jar) @ aidqayyum ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\253288\target\aidqayyum-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.5.2:install (default-install) @ aidqayyum ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\253288\target\aidqayyum-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\com\company\aidqayyum\1.0-SNAPSHOT\aidqayyum-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\253288\pom.xml to C:\Users\yeong\.m2\repository\com\company\aidqayyum\1.0-SNAPSHOT\aidqayyum-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 5:48.878s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:57:50 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 37M/120M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

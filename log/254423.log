@@ -1,0 +1,50 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] WARN org.apache.maven.DefaultMaven - 
+[main] WARN org.apache.maven.DefaultMaven - Some problems were encountered while building the effective model for jetbrains:254423-STIW3054-A191-A1:jar:1.0-SNAPSHOT
+[main] WARN org.apache.maven.DefaultMaven - The expression ${pom.artifactId} is deprecated. Please use ${project.artifactId} instead.
+[main] WARN org.apache.maven.DefaultMaven - 
+[main] WARN org.apache.maven.DefaultMaven - It is highly recommended to fix these problems because they threaten the stability of your build.
+[main] WARN org.apache.maven.DefaultMaven - 
+[main] WARN org.apache.maven.DefaultMaven - For this reason, future Maven versions might no longer support building such malformed projects.
+[main] WARN org.apache.maven.DefaultMaven - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building 254423-STIW3054-A191-A1 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ 254423-STIW3054-A191-A1 ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting C:\Users\yeong\Desktop\Dominators-master\repo\254423\target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ 254423-STIW3054-A191-A1 ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Copying 9 resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ 254423-STIW3054-A191-A1 ---
+[main] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 4 source files to C:\Users\yeong\Desktop\Dominators-master\repo\254423\target\classes
+[main] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.CompilerMojo - COMPILATION ERROR : 
+[main] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[main] ERROR org.apache.maven.plugin.CompilerMojo - error: Source option 5 is no longer supported. Use 7 or later.
+[main] ERROR org.apache.maven.plugin.CompilerMojo - error: Target option 5 is no longer supported. Use 7 or later.
+[main] INFO org.apache.maven.plugin.CompilerMojo - 2 errors 
+[main] INFO org.apache.maven.plugin.CompilerMojo - -------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD FAILURE
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 10:51.762s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:51:50 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 37M/130M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] ERROR org.apache.maven.cli.MavenCli - Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:2.5.1:compile (default-compile) on project 254423-STIW3054-A191-A1: Compilation failure: Compilation failure:
+[main] ERROR org.apache.maven.cli.MavenCli - error: Source option 5 is no longer supported. Use 7 or later.
+[main] ERROR org.apache.maven.cli.MavenCli - error: Target option 5 is no longer supported. Use 7 or later.
+[main] ERROR org.apache.maven.cli.MavenCli - -> [Help 1]
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - To see the full stack trace of the errors, re-run Maven with the -e switch.
+[main] ERROR org.apache.maven.cli.MavenCli - Re-run Maven using the -X switch to enable full debug logging.
+[main] ERROR org.apache.maven.cli.MavenCli - 
+[main] ERROR org.apache.maven.cli.MavenCli - For more information about the errors and possible solutions, please read the following articles:
+[main] ERROR org.apache.maven.cli.MavenCli - [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

@@ -1,0 +1,53 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building max 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ max ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ max ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\243147\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ max ---
+[main] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 2 source files to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ max ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\243147\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ max ---
+[main] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ max ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.1.2:jar (default-jar) @ max ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\max-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ max ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\max-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\com\A1\max\1.0-SNAPSHOT\max-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\243147\pom.xml to C:\Users\yeong\.m2\repository\com\A1\max\1.0-SNAPSHOT\max-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-dependency-plugin:2.8:copy-dependencies (default) @ max ---
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-lang-2.3.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\commons-lang-2.3.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying xmlbeans-2.6.0.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\xmlbeans-2.6.0.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-ooxml-3.17.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\poi-ooxml-3.17.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-ooxml-schemas-3.17.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\poi-ooxml-schemas-3.17.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-3.17.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\poi-3.17.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying jsoup-1.12.1.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\jsoup-1.12.1.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-collections4-4.1.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\commons-collections4-4.1.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-codec-1.10.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\commons-codec-1.10.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying stax-api-1.0.1.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\stax-api-1.0.1.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying curvesapi-1.04.jar to C:\Users\yeong\Desktop\Dominators-master\repo\243147\target\lib\curvesapi-1.04.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.075s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:51:55 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 39M/107M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

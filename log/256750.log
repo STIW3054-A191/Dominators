@@ -1,0 +1,84 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Assignment1 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ Assignment1 ---
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Assignment1 ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\256750\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:compile (default-compile) @ Assignment1 ---
+[main] WARN org.apache.maven.plugin.CompilerMojo - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 7 source files to C:\Users\yeong\Desktop\Dominators-master\repo\256750\target\classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ Assignment1 ---
+[main] WARN org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\256750\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ Assignment1 ---
+[main] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ Assignment1 ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:2.4:jar (default-jar) @ Assignment1 ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\256750\target\Assignment1-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-shade-plugin:1.3.1:shade (default) @ Assignment1 ---
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.jsoup:jsoup:jar:1.11.3 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven.plugins:maven-jar-plugin:jar:3.1.2 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-plugin-api:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-model:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.sisu:sisu-inject-plexus:jar:1.4.2 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.sisu:sisu-inject-bean:jar:1.4.2 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.sisu:sisu-guice:jar:noaop:2.1.7 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-core:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-settings:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-settings-builder:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-repository-metadata:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-model-builder:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-aether-provider:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.aether:aether-impl:jar:1.7 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.aether:aether-spi:jar:1.7 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.aether:aether-api:jar:1.7 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.aether:aether-util:jar:1.7 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-interpolation:jar:1.14 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-classworlds:jar:2.2.3 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-component-annotations:jar:1.5.5 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.sonatype.plexus:plexus-cipher:jar:1.4 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-artifact:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven.shared:file-management:jar:3.0.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven.shared:maven-shared-io:jar:3.0.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-compat:jar:3.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven.wagon:wagon-provider-api:jar:2.10 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven:maven-archiver:jar:3.4.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-io:commons-io:jar:2.5 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.maven.shared:maven-shared-utils:jar:3.2.1 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-archiver:jar:4.1.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-io:jar:3.1.1 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-compress:jar:1.18 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.iq80.snappy:snappy:jar:0.4 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.tukaani:xz:jar:1.8 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.codehaus.plexus:plexus-utils:jar:3.2.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.poi:poi:jar:4.0.0 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including commons-codec:commons-codec:jar:1.10 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Including org.apache.commons:commons-collections4:jar:4.2 in the shaded jar.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing original artifact with shaded artifact.
+[main] INFO org.apache.maven.plugins.shade.mojo.ShadeMojo - Replacing C:\Users\yeong\Desktop\Dominators-master\repo\256750\target\Assignment1-1.0-SNAPSHOT.jar with C:\Users\yeong\Desktop\Dominators-master\repo\256750\target\Assignment1-1.0-SNAPSHOT-shaded.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ Assignment1 ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\256750\target\Assignment1-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\com\assignment1\Assignment1\1.0-SNAPSHOT\Assignment1-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\256750\dependency-reduced-pom.xml to C:\Users\yeong\.m2\repository\com\assignment1\Assignment1\1.0-SNAPSHOT\Assignment1-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 11.796s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:37:17 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 37M/115M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------

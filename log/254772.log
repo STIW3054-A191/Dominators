@@ -1,0 +1,52 @@
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - setRootLoggerLevel: operation not supported
+[main] WARN org.apache.maven.cli.logging.BaseSlf4jConfiguration - reset(): operation not supported
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Scanning for projects...
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger -                                                                         
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Building Assignment 1.0-SNAPSHOT
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-clean-plugin:2.5:clean (default-clean) @ Assignment ---
+[main] INFO org.apache.maven.plugin.clean.CleanMojo - Deleting C:\Users\yeong\Desktop\Dominators-master\repo\254772\target
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:resources (default-resources) @ Assignment ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\254772\src\main\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Assignment ---
+[main] INFO org.codehaus.plexus.compiler.javac.JavacCompiler - Compiling 6 source files to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\classes
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-resources-plugin:2.6:testResources (default-testResources) @ Assignment ---
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - Using 'UTF-8' encoding to copy filtered resources.
+[main] INFO org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\yeong\Desktop\Dominators-master\repo\254772\src\test\resources
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Assignment ---
+[main] INFO org.apache.maven.plugin.TestCompilerMojo - No sources to compile
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-surefire-plugin:2.12.4:test (default-test) @ Assignment ---
+[main] INFO org.apache.maven.plugin.surefire.SurefirePlugin - No tests to run.
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-jar-plugin:3.1.2:jar (default-jar) @ Assignment ---
+[main] INFO org.codehaus.plexus.archiver.jar.JarArchiver - Building jar: C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\Assignment-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-install-plugin:2.4:install (default-install) @ Assignment ---
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\Assignment-1.0-SNAPSHOT.jar to C:\Users\yeong\.m2\repository\com\company\Assignment\1.0-SNAPSHOT\Assignment-1.0-SNAPSHOT.jar
+[main] INFO org.apache.maven.DefaultMaven - Installing C:\Users\yeong\Desktop\Dominators-master\repo\254772\pom.xml to C:\Users\yeong\.m2\repository\com\company\Assignment\1.0-SNAPSHOT\Assignment-1.0-SNAPSHOT.pom
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - 
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - --- maven-dependency-plugin:2.8:copy-dependencies (default) @ Assignment ---
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-ooxml-schemas-4.0.0.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\poi-ooxml-schemas-4.0.0.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying jsoup-1.12.1.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\jsoup-1.12.1.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying xmlbeans-3.0.1.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\xmlbeans-3.0.1.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-4.0.0.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\poi-4.0.0.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-codec-1.10.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\commons-codec-1.10.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying poi-ooxml-4.0.0.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\poi-ooxml-4.0.0.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-compress-1.18.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\commons-compress-1.18.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying commons-collections4-4.2.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\commons-collections4-4.2.jar
+[main] INFO org.apache.maven.plugin.dependency.fromDependencies.CopyDependenciesMojo - Copying curvesapi-1.04.jar to C:\Users\yeong\Desktop\Dominators-master\repo\254772\target\lib\curvesapi-1.04.jar
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - BUILD SUCCESS
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Total time: 3.455s
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Finished at: Thu Jan 02 18:40:39 MYT 2020
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - Final Memory: 37M/122M
+[main] INFO org.apache.maven.cli.event.ExecutionEventLogger - ------------------------------------------------------------------------
