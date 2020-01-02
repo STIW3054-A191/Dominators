@@ -62,6 +62,7 @@ You are required to develop a real-time system using the Java programming langua
 ![Graph](https://user-images.githubusercontent.com/38216203/71661678-f4db3e80-2d89-11ea-96c7-66e0057f3d84.jpeg)
 
 ## UML Class Diagram
+![classD](https://user-images.githubusercontent.com/46247836/71662414-64522d80-2d8c-11ea-99f8-3e828ef456a0.png)
 
 ## YouTube Presentation
 
