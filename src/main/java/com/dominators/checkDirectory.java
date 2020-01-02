@@ -16,12 +16,18 @@ public class checkDirectory {
         String directory = System.getProperty("user.dir");
 
         File file = new File(directory+"/repo/"+matricNo+"/target");
-        ArrayList<String> names = new ArrayList<String>(Arrays.asList(file.list()));
-        for(int i = 0; i < names.size(); i++){
-            if(names.get(i).toString().contains(".jar")){
-                jarname = names.get(i).toString();
+        try{
+            ArrayList<String> names = new ArrayList<String>(Arrays.asList(file.list()));
+            for(int i = 0; i < names.size(); i++){
+                if(names.get(i).toString().contains(".jar")){
+                    jarname = names.get(i).toString();
+                }
             }
+        }catch(NullPointerException e){
+            System.out.println("Could not find jar file in "+matricNo+" repository folder!");
         }
+
+
     }
 
     public String getJarname(){
