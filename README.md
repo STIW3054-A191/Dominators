@@ -66,3 +66,13 @@ You are required to develop a real-time system using the Java programming langua
 ## YouTube Presentation
 
 ## References
+<br>1. ArrayList (Java Platform SE 8 ). (n.d.). Retrieved from Oracle Help Center: https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+<br><br>2. Element (jsoup Java HTML Parser 1.12.1 API). (n.d.). Retrieved from jsoup Java HTML Parser, with best of DOM, CSS, and jquery: https://jsoup.org/apidocs/org/jsoup/nodes/Element.html
+<br><br>3. Pattern (Java Platform SE 7 ). (n.d.). Retrieved from Oracle Help Center: https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+<br><br>4. Use selector-syntax to find elements: jsoup Java HTML parser. (n.d.). Retrieved from jsoup Java HTML Parser, with best of DOM, CSS, and jquery: https://jsoup.org/cookbook/extracting-data/selector-syntax
+<br><br>5. YellowRose. (n.d.). Add Border to Excel Cell - Java POI Example Program | ThinkTibits! Retrieved from ThinkTibits!: https://thinktibits.blogspot.com/2012/12/Excel-Add-Cell-Border-Java-POI-Example-Program.html
+<br><br>6. Singh, R. (2017, December 24). How to Write to an Excel file in Java using Apache POI | CalliCoder. Retrieved from CalliCoder | Programming, Web & Desktop App Development Tutorials: https://www.callicoder.com/java-write-excel-file-apache-poi/
+<br><br>7. Shah, A. (n.d.). How to Run Multiple Threads Concurrently in Java? ExecutorService Approach • Crunchify. Retrieved from Crunchify • Largest free Technical and Blogging resource site for Beginner. We help clients transform their great ideas into reality!: https://crunchify.com/how-to-run-multiple-threads-concurrently-in-java-executorservice-approach/
+<br><br>8. Vogella(2019) JGit - Tutorial. Retrieved from https://www.vogella.com/tutorials/JGit/article.html
+<br><br>9. JFreeChart. Retrieved from http://www.jfree.org/jfreechart/
+<br><br>10. The Leading PDF Platform for Developers | iText. Retrieved from https://itextpdf.com/en
