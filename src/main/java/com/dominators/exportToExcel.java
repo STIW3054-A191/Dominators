@@ -19,7 +19,7 @@ public class exportToExcel implements Print {
         // Create a Workbook.
         Workbook workbook = new XSSFWorkbook();
         // Create Submitted Sheet.
-        Sheet sheet1 = workbook.createSheet("Zhamri's Github Followers");
+        Sheet sheet1 = workbook.createSheet("ckjmResult");
 
         // Create a Font for styling header cells.
         Font headerFont = workbook.createFont();
@@ -61,7 +61,9 @@ public class exportToExcel implements Print {
 
         // Print data to row.
         int rowNum = 1;
-        for (Data followerTable : arrayList) {
+        for(int i=0;i<28;i++){
+            Data followerTable = arrayList.get(i);
+//        for (Data followerTable : arrayList)
             Row row = sheet1.createRow(rowNum++);
 
 
